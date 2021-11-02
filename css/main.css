@@ -1152,8 +1152,14 @@ footer .container .icons a{
   text-decoration: none;
   color: white;
 }
-footer .container .icons a i{
-  padding: 20px;
+footer .icons i {
+  margin: 0 15px;
+  font-size: 1.2em;
+  opacity: .7;
+}
+footer .container .icons a:hover i{
+  transform: scale(1.15) rotate(10deg);
+  opacity: 1;
 }
 footer .container > p span{
   margin-inline: 5px;
