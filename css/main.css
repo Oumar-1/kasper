@@ -847,15 +847,16 @@ header .container nav i {
   grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
   gap: 20px;
 }
-.pricing .container .offers-container .box{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color:#B95261;
-  border-radius: 10px;
-  border-top: 2px solid var(--main-border-color);
+.pricing .container .offers-container .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    border-top: 2px solid var(--main-border-color);
+    box-shadow: 0 5px 15px -5px rgb(0 0 0 / 50%);
 }
 .pricing .container .offers-container .box header{
   border-bottom:1px solid  var(--main-border-color);
